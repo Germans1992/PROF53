@@ -5,25 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02e0e3bd-4ebd-4669-b3fa-fd1915c34e30" name="Changes" comment="My Future">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/bank/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/bank/LoanIssuer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/bank/LoanTaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/bank/LoanTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/crossword/TestABC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/crossword/a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/crossword/b.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/crossword/c.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/shape/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/shape/Figure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/shape/FigureTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/shape/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/shape/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/university/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/university/Staff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/university/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/university/University.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/WeekDays/WeekDays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/casino/BlackJack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/casino/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/casino/Dealer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/casino/Rank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/casino/Suite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/champagne/Cru.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/date/MyDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/fruits/Fruits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/pizza/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/pizza/PizzaSize.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/geometry/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson1/geometry/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2/bank/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2/bank/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2/bank/LoanTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2/bank/LoanTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2/shape/FigureTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2/shape/FigureTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2/shape/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2/shape/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2/shape/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2/shape/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -58,16 +57,30 @@
     &quot;last_directory_selection&quot;: &quot;/Users/gt13/IdeaProjects/PROF53/src/main/java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestABC">
-    <configuration name="JapaneseEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson1.japanese.JapaneseEmployee" />
+  <component name="RunManager" selected="Application.BlackJack">
+    <configuration name="BlackJack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson3.casino.BlackJack" />
       <module name="PROF53" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson1.japanese.*" />
+          <option name="PATTERN" value="lesson3.casino.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fruits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson3.fruits.Fruits" />
+      <module name="PROF53" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson3.fruits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestABC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson2.crossword.TestABC" />
+    <configuration name="Pizza" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson3.pizza.Pizza" />
       <module name="PROF53" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson2.crossword.*" />
+          <option name="PATTERN" value="lesson3.pizza.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,25 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="University" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson2.university.University" />
+    <configuration name="WeekDays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson3.WeekDays.WeekDays" />
       <module name="PROF53" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson2.university.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dogTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson1.dogTester" />
-      <module name="PROF53" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson1.*" />
+          <option name="PATTERN" value="lesson3.WeekDays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestABC" />
-        <item itemvalue="Application.University" />
+        <item itemvalue="Application.BlackJack" />
         <item itemvalue="Application.LoanTester" />
-        <item itemvalue="Application.JapaneseEmployee" />
-        <item itemvalue="Application.dogTester" />
+        <item itemvalue="Application.Fruits" />
+        <item itemvalue="Application.WeekDays" />
+        <item itemvalue="Application.Pizza" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683003990085</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="My Future">
+      <created>1683192653155</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683192653155</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,5 +177,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="My Future" />
     <option name="LAST_COMMIT_MESSAGE" value="My Future" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/lesson2/shape/FigureTester.java</url>
+          <line>3</line>
+          <properties class="lesson2.shape.FigureTester" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
