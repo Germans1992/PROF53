@@ -2,14 +2,8 @@ package lesson1.geometry;
 
 public class Rectangle {
 
-    public static void main(String[] args) {
-    }
-point se;
-point nw;
-
-double area(){
-    return 0;
-}
+private point se;
+private point nw;
 
     public Rectangle(point se, point nw) {
         this.se = se;
@@ -30,5 +24,11 @@ double area(){
 
     public void setNw(point nw) {
         this.nw = nw;
+    }
+
+double area(){
+        double sizeX = se.getX() - nw.getX();
+        double sizeY = se.getY() - nw.getY();
+        return sizeY * sizeX;
     }
 }

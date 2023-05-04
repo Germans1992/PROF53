@@ -4,14 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02e0e3bd-4ebd-4669-b3fa-fd1915c34e30" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="02e0e3bd-4ebd-4669-b3fa-fd1915c34e30" name="Changes" comment="My Future">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/bank/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/bank/LoanIssuer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/bank/LoanTaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/bank/LoanTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/crossword/TestABC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/crossword/a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/crossword/b.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/crossword/c.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/shape/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/shape/Figure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/shape/FigureTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/shape/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/shape/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/university/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/university/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/university/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/university/University.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/dogTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson1/dogTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/geometry/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson1/geometry/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/geometry/point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson1/geometry/point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/japanese/JapaneseEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson1/japanese/JapaneseEmployee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +44,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2NhgDv9WVBul75ZqeFqSAj1wNge" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -47,13 +61,52 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.JapaneseEmployee">
+  <component name="RunManager" selected="Application.TestABC">
     <configuration name="JapaneseEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson1.japanese.JapaneseEmployee" />
       <module name="PROF53" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lesson1.japanese.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoanTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson2.bank.LoanTester" />
+      <module name="PROF53" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson2.bank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestABC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson2.crossword.TestABC" />
+      <module name="PROF53" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson2.crossword.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="University" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson2.university.University" />
+      <module name="PROF53" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson2.university.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,6 +129,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestABC" />
+        <item itemvalue="Application.University" />
+        <item itemvalue="Application.LoanTester" />
         <item itemvalue="Application.JapaneseEmployee" />
         <item itemvalue="Application.dogTester" />
       </list>
@@ -90,6 +146,14 @@
       <option name="presentableId" value="Default" />
       <updated>1680121615852</updated>
     </task>
+    <task id="LOCAL-00001" summary="My Future">
+      <created>1683003990084</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683003990085</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,5 +166,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="My Future" />
+    <option name="LAST_COMMIT_MESSAGE" value="My Future" />
   </component>
 </project>
