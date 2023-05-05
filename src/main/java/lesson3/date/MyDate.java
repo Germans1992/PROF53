@@ -16,7 +16,7 @@ public class MyDate {
         int currentMonth = month;
         int currentYear = year;
         while (daysLeft > 0) {
-            int daysLeftCurrentMonth = daysInMonth(month, year) - currentDay;
+            int daysLeftCurrentMonth = daysInMonth(currentMonth, currentYear) - currentDay;
             if (daysLeftCurrentMonth >= daysLeft) {
                 currentDay += daysLeft;
                 daysLeft = 0;
@@ -64,5 +64,19 @@ public class MyDate {
                 return false;
             return year % 4 == 0;
         }
+
+    @Override
+    public String toString() {
+        return "MyDate{" +
+                "year=" + year +
+                ", month=" + month +
+                ", day=" + day;
+    }
+
+    public static void main(String[] args) {
+        MyDate d = new MyDate(2022,4,18);
+        d.add(5);
+        System.out.println(d);
+    }
     }
 
