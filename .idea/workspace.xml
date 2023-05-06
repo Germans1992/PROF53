@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="02e0e3bd-4ebd-4669-b3fa-fd1915c34e30" name="Changes" comment="My Future">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3/date/MyDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3/date/MyDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2/bank/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2/bank/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2/bank/LoanTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2/bank/LoanTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/lesson2/bank/Account.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,7 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MyDate">
+  <component name="RunManager" selected="Application.LoanTester">
     <configuration name="BlackJack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson3.casino.BlackJack" />
       <module name="PROF53" />
@@ -114,10 +118,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LoanTester" />
         <item itemvalue="Application.MyDate" />
         <item itemvalue="Application.WeekDays" />
         <item itemvalue="Application.BlackJack" />
-        <item itemvalue="Application.LoanTester" />
         <item itemvalue="Application.Fruits" />
       </list>
     </recent_temporary>
@@ -159,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683265506497</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="My Future">
+      <created>1683266000223</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683266000223</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,7 +178,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

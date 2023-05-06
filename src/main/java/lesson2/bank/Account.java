@@ -1,18 +1,12 @@
 package lesson2.bank;
 
 public class Account {
-    private final int id;
-    private final String owner;
-    private static int balance;
+    private String id;
+    private String owner;
+    public int balance;
     private int account;
 
-    public Account(int id, String owner, int balance) {
-        this.id = id;
-        this.owner = owner;
-        Account.balance = balance;
-    }
-
-    public int getId() {
+    public String getId() {
         return id;
     }
 
@@ -24,43 +18,54 @@ public class Account {
         return balance;
     }
 
-    //дописать методы
-    //добавление денег насчет
-    //возвращение полученного баланса
+    public Account(String id, String owner, int balance) {
+        this.id = id;
+        this.owner = owner;
+        this.balance = balance;
+
+
+    }
+
+    // добавление денег на счет
+    // и возвращение полученного баланса
     public int debit(int money) {
+        // добавление денег на счет
+        // и возвращение полученного баланса
         if (money < 0) {
-            System.out.println("Отрицательная сумма денег дебита");
+            System.out.println("Unable");
+
         } else {
-            balance += money;
+            balance = balance + money;
         }
         return balance;
     }
 
-    //Удаление денег со счета, нельзя удалить больше чем на счете есть
-    // При попытке удалить больше, не нужно менять баланс счета, но нужно
-    // печатать об этом сообщение!
-    //возвращается количество денег на балансе
-    public static int credit(int money) {
-        if (money > balance) {
-            System.out.println("Сумма больше баланса");
+    public int credit(int money) {
+        // удаление денег со счета
+        // нельзя удалить больше чем на счете есть
+        // при пытытке удалить больше, не нужно менять баланс счета, но нужно
+        // печатать об этом сообщение
+        // возвращается количество денег оставшихся на балансе
+        if (balance - money < 0) {
+            System.out.println("Unable");
             return 0;
         }
         balance -= money;
         return balance;
     }
 
-    //перевод денег со счета на счет
-    //кредитуем свой счет и дебетуем account
-    //возвращается баланс счета при
-    //попытке снять больше чем есть на счете нужно печатать сообщения
-//    public static int transfer(String account, int amount) {
-//        if (balance < amount) {
-//            System.out.println("Денег недостаточно ");
-//            return balance;
-//        } else {
-//            int amountDebited = (balance - credit(amount));
-//            account.debit(amountDebited);
-//            return balance;
-//        }
-//    }
+    public int transfer(Account account, int amount) {
+        // перевод денег со счета на счет
+        // кредитуем свой счет и дебитуем account
+        // возвращается баланс счета
+        // при попытке снять больше чем есть на счете нужно печатать сообщение
+
+        if (balance < amount) {
+            System.out.println("Unable");
+            return 0;
+        }
+        int minusBalance = (balance - credit(amount));
+        account.debit(minusBalance);
+        return balance;
+    }
 }
